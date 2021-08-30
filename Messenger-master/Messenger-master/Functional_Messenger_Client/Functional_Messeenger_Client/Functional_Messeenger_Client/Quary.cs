@@ -4,7 +4,7 @@ namespace Functional_Messeenger_Client
 {
     class Quary
     {
-        static string URL = "server=192.168.35.191; database=messanger; user=mclient; password=mc123; port=3306";
+        static string URL = "server=***.***.***.***; database=***; user=***; password=***; port=***";
         public MySqlConnection connection = new MySqlConnection();
         public MySqlCommand command = new MySqlCommand();
         public MySqlDataReader reader = null;

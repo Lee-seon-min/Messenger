@@ -73,7 +73,7 @@ namespace Functional_Messeenger_Client
         private void Home_Load(object sender, EventArgs e)
         {
             client = new TcpClient();
-            client.Connect("192.168.35.191", 10000);
+            client.Connect("***.***.***.***", ***);
             N_stream = client.GetStream();
             byte[] MyId = Encoding.Default.GetBytes($"{id}");
             N_stream.Write(MyId, 0, MyId.Length);

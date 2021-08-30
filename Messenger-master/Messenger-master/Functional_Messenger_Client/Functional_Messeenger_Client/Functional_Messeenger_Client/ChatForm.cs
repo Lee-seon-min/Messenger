@@ -59,7 +59,7 @@ namespace Functional_Messeenger_Client
         private void Form1_Load(object sender, EventArgs e)
         {
             client = new TcpClient();
-            client.Connect("192.168.35.191", 9999);
+            client.Connect("***.***.**.***", ****);
             N_stream = client.GetStream();
             string linkingArray_with_id = id + "+" + userArray;
             byte[] MyId = Encoding.Default.GetBytes(linkingArray_with_id);
