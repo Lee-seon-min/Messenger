@@ -15,7 +15,7 @@ namespace Functionality_Messenger_Server
 {
     public partial class ChatServer : Form
     {
-        const int PORT = 9999; //이거 다르게 해서 서버사이드를 하나더 만들자! 코드는 같은거니까
+        const int PORT = ****; //이거 다르게 해서 서버사이드를 하나더 만들자! 코드는 같은거니까
         static int serverCount = 1;
         TcpListener server = null;
         TcpClient client = null;

@@ -16,8 +16,8 @@ namespace Functionality_Messenger_Server
 {
     public partial class HomeServer : Form
     {
-        string URL = "server=127.0.0.1; database=messanger; user=mclient; password=mc123;"; //데이터베이스 계정과 사용 DB선언
-        const int PORT = 10000; //포트번호를 다르게 해서 서버사이드를 하나더 만들자! 코드는 같은거니까
+        string URL = "server=****; database=****; user=****; password=***;"; //데이터베이스 계정과 사용 DB선언
+        const int PORT = ***; //포트번호를 다르게 해서 서버사이드를 하나더 만들자! 코드는 같은거니까
         static int serverCount = 1; //서버는 한개만 개설이 가능
         TcpListener server = null; //서버객체
         TcpClient client = null; //클라이언트 객체
